@@ -1,7 +1,7 @@
 import sys
 from moviepy.editor import *
 
-VIDEO_SOURCE_PATH = 'C:\\Work\\SJSU\\Fall 2020\\CS 160\\Video summary project\\upload folder\\video\\video.mp4'
+VIDEO_SOURCE_PATH = 'C:\\Work\\SJSU\\Fall 2020\\CS 160\\Video summary project\\upload folder\\video\\2.mp4'
 TIMESTAMP_FILE_PATH = 'C:\\Work\\SJSU\\Fall 2020\\CS 160\\Video summary project\\notes and timestamps data folder\\timestamp\\timestamp.txt'
 VIDEO_DESTINATION_PATH = 'C:\\Work\\SJSU\\Fall 2020\\CS 160\\Video summary project\\notes and timestamps data folder\\video\\summary.mp4'
 

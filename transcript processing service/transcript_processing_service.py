@@ -1,4 +1,5 @@
 import flask
+from flask import Flask, redirect
 import requests
 from nlp import map_sentences_timestamps
 
@@ -19,9 +20,9 @@ def get_timestamps():
     timestamp_file.write(timestamp_str)
     timestamp_file.close()
 
-    requests.get('http://127.0.0.1:8888/')
+    return redirect('http://127.0.0.1:8888/', code = 301)
 
-    return 'Check directory'
+
 
 
 @app.route('/get_notes', methods=['GET'])

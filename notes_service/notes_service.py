@@ -6,7 +6,6 @@ app = Flask(__name__)
 def upload_transcript():
     return render_template("multiple_upload_form.html")
 
-
 '''
 @app.route('/upload_dictionary')
 def upload_dictionary():

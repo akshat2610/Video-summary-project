@@ -10,7 +10,6 @@ TRANSCRIPT_PATH = 'C:\\Work\\SJSU\\Fall 2020\\CS 160\\Video summary project\\upl
 DICTIONARY_PATH = 'C:\\Work\\SJSU\\Fall 2020\\CS 160\\Video summary project\\upload folder\\dictionary\\dictionary.txt'
 DEFINE_PUNCTUATION_MARKS = ['.',',',';','!','%','\n','\r','�','-','=','(',')','[',']','@','+','?',"'", '"']
 
-
 def map_sentences_timestamps():
     notes_timestamp_dict = collections.OrderedDict()
     try:
