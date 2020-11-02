@@ -19,22 +19,27 @@ const Log = () =>{
         </Button>
         )
     }
-    else{
-        return(
-             <Link to="/login">Video Window</Link>
-        )
-    }
+    // else{
+    //     return(
+    //          <Link to="/login">Video Window</Link>
+    //     )
+    // }
+    return(
+        <Button
+      onClick={() => {
+        deleteTokens();
+        window.location.replace("/")
+      }}
+    >
+      Sign out
+    </Button>
+    )
 }
 
 const NavBar =  () =>{
     
         return(
             <Navbar className="nav-container">
-                {/* <Navbar.Header>
-                    <Navbar.Brand>
-                    <a href="#home"><img src={logo} alt="coutloot logo"/></a>
-                    </Navbar.Brand>
-                </Navbar.Header> */}
                 <Nav className="pull-right">
                     <NavItem className="navitem" eventKey={1} href="#">
                     <Log/>

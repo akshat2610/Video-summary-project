@@ -9,13 +9,6 @@ import logo from './summarAIze.png';
 import useSignUpForm from './CustomHooks';
 import './App.css';
 
-// const signup = () => {
-//   alert(`User Created!
-//          Name: ${inputs.firstName} ${inputs.lastName}
-//          Email: ${inputs.email}`);
-// }
-// const {inputs, handleInputChange, handleSubmit} = useSignUpForm(signup);
-
 const Home = ()=> <h3>Logged in as {localStorage.getItem("username")}</h3>
 
 function App() {
@@ -25,6 +18,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img style={{ height: '60px'}} src={logo} className="App-logo" alt="logo" />
+        &nbsp; &nbsp; &nbsp; Sign In or Sign Up with summarAIze to save your videos and documents
         <Router>
         <div>
           <NavBar/>
@@ -32,7 +26,7 @@ function App() {
           <Route exact path="/login" component={Login} />
       </div>
     </Router>
-        &nbsp; &nbsp; &nbsp; Sign In or Sign Up with summarAIze to save your videos and documents
+        
         {/* <button type="password">Sign Up</button> */}
         {/* <form>
           <label>Username</label>
