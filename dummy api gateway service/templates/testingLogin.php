@@ -96,25 +96,12 @@ echo <<<_END
 <style>
 
 body {font-family:Calibri, sans-serif;}
-/* 
-html, body {
-    height: 100%;
-} */
 
-/* html {
-    display: table;
-    margin: auto;
-} */
 .logo-img{
     float: left;
     position: relative;
     margin: 0px 20px 0px 20px;
 }
-/* body{
-    display: table;
-    margin: auto;
-} */
-
 
 /* Full-width input fields */
 input[type = text], input[type = password] {
@@ -124,6 +111,12 @@ input[type = text], input[type = password] {
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
 }
 
 /* Set a style for all buttons */
@@ -144,30 +137,19 @@ button:hover {
 /* Extra styles for the cancel button */
 .cancelbtn {
   width: auto;
-  padding: 10px 18px;
+  padding: 14px 20px;
   background-color: #f44336;
 }
 
-/* Center the image and position the close button */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
-}
-
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
-
+/* Add padding to container elements */
 .container {
   padding: 16px;
 }
 
-span.psw {
-  float: right;
-  padding-top: 16px;
+.cancelContainer {
+  padding: 5px;
 }
+
 
 /* The Modal (background) */
 .modal {
@@ -208,13 +190,9 @@ span.psw {
   to {transform: scale(1)}
 }
 
-/* Change styles for span and cancel button on extra small screens */
+/* Change styles for cancel and signup button on extra small screens */
 @media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
-  }
-  .cancelbtn {
+  .cancelbtn, .signUpBtn {
      width: 100%;
   }
 }
@@ -223,32 +201,61 @@ span.psw {
 
 <h2 style="color: seagreen; font-weight:500; font-family:'Trebuchet MS';">welcome to summarAIze</h2>
     
-<button onclick = "document.getElementById('id01').style.display = 'block'" style = "width:auto;">Signup</button>
+<button onclick = "document.getElementById('id01').style.display = 'block'" style = "width:auto;">Sign Up</button>
+<button onclick = "document.getElementById('id02').style.display = 'block'" style = "width:auto;">Login</button>
 
 <div id = "id01" class = "modal">
   
   <form class = "modal-content animate" action = "testingLogin.php" method = "POST" onsubmit="return validate(this)">
 
     <div class = "container">
-      <label for = "unamw"><b>Username</b></label>
-        <input type = "text" placeholder = "Enter your Username" name = "uname" value="$uname" required>
+      <label for = "uname"><b>Username</b></label>
+        <input type = "text" placeholder = "Select a Username" name = "uname" value="$uname" required>
 
       <label for = "email"><b>Email ID</b></label>
-      <input type = "text" placeholder = "Enter your Email ID" name = "email" value="$email" required>
+      <input type = "text" placeholder = "Enter an Email ID" name = "email" value="$email" required>
 
       <label for = "pwd"><b>Password</b></label>
-      <input type = "password" placeholder = "Enter Password" name = "psw" value="$psw" required>
+      <input type = "password" placeholder = "Enter a Password" name = "psw" value="$psw" required>
+	
+      <label for = "cpwd"><b>Confirm Password</b></label>
+      <input type = "password" placeholder = "Re-type the Password" name = "cpsw" value="$cpsw" required>
         
       <label>
         <input type = "checkbox" unchecked = "true" name = "remember"> Remember me
       </label>
+      <button type = "submit" class = "signUpBtn" value="Signup">Sign Up</button>
+   </div>
 
-      <button type = "submit" value="Signup">Signup</button>
+    <div class = "cancelContainer" style = "background-color:#f1f1f1">
+      <button type = "button" onclick = "document.getElementById('id01').style.display = 'none'" class = "cancelbtn">Cancel</button>
+      
     </div>
 
-    <div class = "container" style = "background-color:#f1f1f1">
-      <button type = "button" onclick = "document.getElementById('id01').style.display = 'none'" class = "cancelbtn">Cancel</button>
-      <span class = "psw">Forgot <a href = "#">password?</a></span>
+  </form>
+</div>
+
+<div id="id02" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+
+    <div class="container">
+      <label for="uname"><b>Username or Email</b></label>
+      <input type="text" placeholder="Enter your Username or Email" name="uname" required>
+
+      <label for="pwd"><b>Password</b></label>
+      <input type="password" placeholder="Enter your Password" name="psw" required>
+        
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+
+      <button type="submit">Login</button>
+
+    </div>
+
+    <div class="cancelContainer" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
     </div>
   </form>
 </div>
@@ -256,11 +263,15 @@ span.psw {
 <script>
 // Get the modal
 var modal = document.getElementById('id01');
+var modal2= document.getElementById('id02');
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
+    }
+    else if(event.target == modal2){
+        modal2.style.display = "none";
     }
 }
 </script>
