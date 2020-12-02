@@ -1,0 +1,40 @@
+<html>
+  <script src="./dropzone-5.7.0/dist/dropzone.js"></script>
+  <link rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
+  <head>
+    <title> Welcome to summarAIze </title>
+    <img class = "logo" src='summarAIze.png' width='200' ALIGN = CENTER alt="align box"/>
+</head>
+<style>
+  .logo{
+  float: left;
+  position: relative;
+  margin: 0px 20px 0px 20px;
+}
+</style>
+<body style="background-color:#282c34;">
+  <br>
+  <h3 style="color: seagreen; font-weight:420; font-family:'Trebuchet MS';"> Upload your Video and Transcript files below </h3>
+  <br>
+  <form action="/success"
+      class="dropzone"
+      id="my-awesome-dropzone"></form>
+  <form action="/file-upload"
+      class="dropzone"
+      id="my-awesome-dropzone"></form>
+  <form action="/file-upload"
+      class="dropzone"
+      id="my-awesome-dropzone"></form>    
+<form action = "/success" method = "post" enctype="multipart/form-data">
+        <p>
+          Please choose the document
+          <input type="file" name="transcript"/>
+        </p>
+        <p>
+          Please choose the keywords file
+          <input type="file" name="dictionary"/>
+        </p>
+        <input type = "submit" value="Submit">
+</form>
+</body>
+</html>
