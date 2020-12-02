@@ -1,0 +1,25 @@
+#login_panel{
+  background-color: #2E8BC0;
+  display: flex;            /*To display logo and login form on the same line*/
+  height: 10%
+}
+#logo{
+  font-size: 25px;
+}
+#login_form{
+  margin: 3% 0% 1% 42%;
+}
+
+#signup_panel{
+  display: flex;
+  height: 10%;
+}
+
+#signup_form{
+  padding: 10px;
+  background-color: lightblue;
+  width: 16%;
+  margin: auto auto;
+  border-style: groove;
+  text-align: center;
+}

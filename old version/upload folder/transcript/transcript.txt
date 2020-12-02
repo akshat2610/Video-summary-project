@@ -1,0 +1,1474 @@
+00:00:13
+Hello everyone.
+00:00:18
+Open the median little bit early, just to
+00:00:20
+Let everybody
+00:00:23
+Give me one second to set up here.
+00:00:28
+Though if you do have a question, please.
+00:00:58
+Oh, and do you remember
+00:01:01
+We will be using clickers today. And I've already started the
+user avatar
+Min-Yuan Lee
+00:01:05
+Class.
+user avatar
+Ben Reed
+00:01:06
+So you should be able to
+00:01:09
+See I quicker.
+00:01:39
+Okay.
+00:01:41
+So, Brandon. Why don't you hang out after class. Talk about the code.
+00:01:47
+And
+user avatar
+Ben Reed
+00:01:50
+Tom
+00:01:51
+Let's
+user avatar
+Ben Reed
+00:01:53
+Let's talk about that.
+00:01:56
+We're going to jump into code very early in the class and we can talk about how to do the usage statement that okay so if I don't if I don't cover it, please.
+00:02:07
+Please.
+user avatar
+Ben Reed
+00:03:04
+Yeah, if you miss yeah missing.
+00:03:08
+I clicker sessions isn't really a big deal. It's only 1% of your grade and 70% to 100% of that 1% so yeah you don't
+00:03:23
+You don't need to worry about missing.
+00:03:26
+Okay, you don't need to worry about missing 30% of it quicker.
+00:03:30
+Because
+00:03:31
+You're thinking 100% for that component of your grade.
+00:04:17
+Yeah.
+00:04:20
+Yeah I know, it's kind of a bummer. I the timezone things are hard. Actually, to be honest, it's not just for me that it's not just time zones in our heart that whole Dateline just blows my mind.
+00:04:35
+I can't, I can't deal with the international Dateline. I do have a hard time like converting with that Europe and New York but but once you get a Dateline involved.
+00:04:47
+Yeah, I did a lot of work for a while with South Korea with Samsung and
+00:04:53
+It was, it was so hard to get wrap my head around what was going on. So I definitely sympathize. But remember, every all the lectures are recorded
+00:05:06
+So in the zoom tab, you should be able to see that.
+00:05:10
+Also, if, if something happens, you can always jump into the zoom class that's right after this. We have the same class and I keep them in sync.
+00:05:23
+And it's right after this one so
+00:05:28
+Although that's just a step to do your tests and everything in this one. So,
+00:05:34
+All right.
+00:05:36
+So I think we're ready to get started.
+00:05:41
+Yeah. Are there any questions before we start.
+00:05:51
+So no questions.
+user avatar
+Benjamin Reyes
+00:05:54
+But Professor question real quick.
+00:05:58
+Yeah compiler that you have installed on the virtual machine. Is that just the statement that you used in the video. Can we just use that for all of our C files and it will just auto compile for us. Oh, when you type it into console.
+user avatar
+Ben Reed
+00:06:14
+Oh, sorry I'm not exactly sure what you're referring to.
+user avatar
+Benjamin Reyes
+00:06:18
+When, uh, when you did the VM showing us how to set it up. Oh yeah you tested it with a hello dot c
+user avatar
+Ben Reed
+00:06:26
+Oh, yeah, yeah. And I can whitelist CC. Uh huh. Yeah.
+user avatar
+Benjamin Reyes
+00:06:30
+Could you, is there any way that you could just put like a small document of shortcuts and stuff for us to put into console to, uh,
+user avatar
+Ben Reed
+00:06:37
+Oh, just take the pilot, make sure it
+00:06:40
+Works. Okay. Yeah. Yeah. Yeah. That's a great idea. I will do that. I will hold on, let me make a note of that. So don't forget
+00:06:51
+And I'm making a note right now. And if I do forget, please, please do. Remind me. Okay.
+00:06:58
+Yeah, that's a good idea page.
+00:07:05
+Yeah.
+00:07:07
+Man.
+00:07:11
+Yeah, I can do that.
+user avatar
+Ben Reed
+00:07:16
+All right. Um, any other questions.
+00:07:23
+All right, I'm
+00:07:26
+Good. Oh, let me just do a quick update
+00:07:32
+There is, I have updated my office hours, a bit
+00:07:37
+One thing I've noticed with the zoom office hours. They kind of work. Okay, but one one problem. Some of you might have noticed
+00:07:48
+With Zoom is in my real office hour
+00:07:54
+I'm in the office. And if you're waiting outside. You can kind of see like how long you have to wait. Right.
+00:08:03
+And you can kind of hear too. And sometimes people here and say, oh, they're talking about my question, and then you can just say, Hey, can I come in and then you can participate and I have to wait.
+00:08:15
+But with zoom. It's all gone like I don't know exactly why people are coming to talk to me and people that are waiting. They don't really know how long have to wait what's going on.
+00:08:27
+So I've actually I actually have two kinds of office hours. Now let me let me put this over.
+00:08:37
+Okay, it's a little bit goofy, but it seems to work pretty well. I've tried it out a couple of times now. So I actually have normal office hours and these are these are with zoom, just like I normally been doing
+00:08:53
+But I'll also have VR office hours and this is using Mozilla hubs, you just go to it from your browser, you have to install anything and it gets you into this like
+00:09:07
+PR to miss virtual world.
+00:09:11
+It's not anything fancy, but but it's kind of cool because I can share my screen. And I can do the office hour and
+00:09:22
+If you're interested in what I'm talking about. You can come closer to the conversation and you can participate
+00:09:29
+If you're waiting to talk about something else you can kind of send over to the side and you can actually talk to other people that are waiting right and not interrupt in the conversation that's going on.
+00:09:42
+That I'm having with students. So, and also that the our office hours. I only share with my classes so you don't have to worry about other students that are coming for advising or something like that.
+00:09:55
+Okay, so I encourage you to try out that the office hours, it seems to work pretty well. So if it doesn't, we'll switch it up a little bit, but I'm it's been pretty good so far. And I think it'll eliminate some of the problems that are some of the limitations. I have a zoom
+00:10:16
+Okay and and this is updated in the syllabus on on the class canvas page.
+00:10:23
+Alright, um,
+00:10:27
+Any questions.
+00:10:29
+About that, or anything else before we jump in.
+00:10:35
+Okay.
+00:10:38
+Alright.
+00:10:40
+So we can talk about pointers today.
+00:10:44
+Pointers are the scary thing about c++ sorry I was scared about c++
+00:10:52
+But, but see you know when when you're taking when you first learn Java.
+00:11:01
+There's kind of two big indications that
+00:11:05
+That tell you that you really understand what's going on in Java.
+00:11:11
+The first indication is this like when you understand what the this pointer is in Java and how to use this
+00:11:22
+You kind of learn you kind of realize. Ah, I think I understand Java. Now I know what this is. And I know how to use it. And I know what it means. And I understand why it changes. So that's kind of when you've arrived.
+00:11:38
+Now the next step for Java is when you understand what classes are right and you understand how you can spin up a class with, you know, on your own dynamically. That's the next level for Java so
+00:11:54
+With see
+00:11:58
+If you can get comfortable with pointers. That's how you know that you've arrived. Okay.
+00:12:06
+And you need to get come to with pointers, guys. Alright, so it'll be it'll be good and. And actually, to be honest. Pointers aren't hard like when you look back in Java at this
+00:12:18
+Pointer you know that this reference and you kind of look once you learn it, you look back and say, okay, why was that so scary.
+00:12:26
+And the same thing with pointers. Once you learn pointers. You, you, you want you'll look back and say, Okay, this is, this wasn't as hard as I thought. Okay.
+00:12:36
+So, whoops. Whoops. Okay, we are going to use that quicker. So please get ready for that. But what we'll do. Right now I want to jump right into code so that we can start talking about pointers.
+00:12:52
+I encourage you
+00:12:55
+If you want to just
+00:12:59
+Start up the VM. And you can try this code, try what we're doing in class on your own.
+00:13:07
+Just to kind of make sure that you you understand what's going on.
+00:13:11
+Okay. All right. So we ready. Any questions before we get started.
+00:13:20
+Okay. Um, alright. So, to get started.
+00:13:29
+First off, let's do it. Let's do a quick review. Actually, this is the startup with the classic a world program.
+00:13:40
+Looks
+user avatar
+Ben Reed
+00:13:44
+Okay, we'll run this.
+00:13:48
+print hello world big surprise.
+00:13:54
+So let's
+00:13:56
+Actually, I think, was
+00:13:59
+The asked about the usage statement.
+00:14:04
+That you have to do for your that for the assignment. Right. So you're when you implement the programming assignment you need to have, you need to take one parameter and then one parameter is the
+00:14:20
+The name of the file that you want to count the set bitten. Okay, so that you can take one parameter and I will be the file name so
+00:14:33
+So,
+00:14:35
+What we can do is, sorry, we get over here.
+00:14:41
+We have this mean, again, it's like the Java name where you get that the arguments from the command line here, right, except with Java.
+00:14:54
+You got an array of strings. Right now we see we get an array of strings. That's what this is right here. It's an array of strings. Right.
+00:15:07
+But we also get account and we need account because in see like we talked about last week.
+00:15:15
+The compiler and at runtime. We don't really know how long the rays are right. We know the start of the array.
+00:15:23
+And that's it. We don't, we don't know how long they are so, so we need to we need to get account. That's what this RFC is for. Okay, we'll talk about what the stars do in just a second.
+00:15:35
+Okay, but for now let's do the count.
+00:15:43
+Okay, so we can say if art see
+00:15:51
+Actually let's print obviously
+00:15:55
+We get a printer and again there's format.
+00:15:59
+Parameters for the print f. And again, these are common across many languages and you can look up
+00:16:10
+What these different parameters mean
+00:16:12
+But the present D.
+00:16:13
+Means we want to insert a number here. And so the RC.
+00:16:25
+RC is
+00:16:28
+So, that's right.
+00:16:31
+You see RC is too. Okay, so, um, let's see. So RC is too. And again,
+00:16:40
+The prints.
+00:16:43
+Are
+00:16:46
+The one
+00:16:49
+S.
+00:16:52
+Okay, so, um,
+00:16:56
+Oh, I should say zero, right, because we are zero base. Okay, so
+00:17:06
+And
+00:17:09
+Okay, so this will print the two parameters that we have. Okay, so let's run it.
+00:17:16
+Okay, so we saw RP zero is the name of the file, right. We talked about this last time and RB. One is the parameter one right so if we, if we look at how we're running this program, we see that we have one parameter here.
+00:17:34
+Okay, so let's take it up. Let's see that we're running with no parameters. Okay, so, because we need to do a usage statement, right. So what we're going to do is
+00:17:47
+Let's run it with no parameters. Okay. Now, when we run it with no parameters we see that there actually are see is, is one
+00:17:58
+Right, even though we're running with no parameters, right, because the first argument is always the name of the of them program you're running specifically how you ran this program. So there's always going to be at least one parameter that's going to be RB zero
+00:18:17
+And then the rest or whatever the user types on the command line.
+00:18:22
+Okay, so, so we expect
+00:18:28
+One parameter to our bit count.
+00:18:35
+Program. Right. So we want RV. We want RC G. Okay, so what do we want our CTO equal if we want one parameter
+00:18:49
+To write
+00:18:52
+What, why is it going to be to time.
+00:19:04
+Or anybody what why is artsy going to be two.
+00:19:09
+Yes, one for the program name and then we have one argument. So it's going to be one more right. Very good, thank you. So we'll say if art see is not equal to
+00:19:22
+We are going to print a usage statement right usage.
+00:19:30
+I think this is what we were supposed to print I'm going up memory here.
+00:19:37
+And we'll say we want to put the name of the program. Right. So we're going to put this. And now after we do after we print this uses statement, we want to stop right just like Java, if we just keep going here.
+00:19:53
+Actually, let's do that. Okay, so
+00:19:58
+We print the youth statement. But then, of course, just like Java. We don't stop. We just keep going on. So we want to exit. Right. And here when we, when we do exit. We can specify the return code.
+00:20:14
+I can't remember what the return code is supposed to be.
+00:20:16
+Does anybody remember
+user avatar
+Rayyan Khan
+00:20:18
+It was
+user avatar
+Ben Reed
+00:20:20
+One. Okay, good. Yeah, there's one that is um
+00:20:26
+The exits read because we have to import. Right. So just like Java, you have to import packages. Now in Java packages are named.
+00:20:37
+Very closely to what you're importing right, whereas in see you can name the import very different from the functions, you're importing
+00:20:46
+And our ID etc lion is kind of nice because it figures out what you should import, sometimes it doesn't. Guess right but usually it's pretty good. So we can actually push enter and it will import this STD live that age for us, which has
+00:21:02
+Alright, so now if we run it.
+00:21:06
+We see that
+user avatar
+Ilan Granot
+00:21:07
+It.
+user avatar
+Ben Reed
+00:21:08
+prints out this you should statement and exits with the exit code of one
+user avatar
+Ilan Granot
+00:21:12
+Ben, I have a question.
+00:21:14
+Yes. Hi.
+00:21:16
+Um, my question is, so is there a difference between I'm
+00:21:23
+Calling exit function within somewhere or having the main return a certain number
+user avatar
+Ben Reed
+00:21:32
+Ah, so
+00:21:35
+Yes. Yes. Good question.
+00:21:37
+So we could have also said return one here, right.
+00:21:43
+And that will actually work. So if we run that will see that it also access with the return could have one. So it's true main can also return with a return could have one
+00:21:58
+The reason we usually use exit.
+00:22:02
+I should say usually because you'll see a lot of times when you do want to exit the program from your main function. It's very common to see people use return
+00:22:14
+The reason we use exit is because a lot of times you're not in me. Right. And so it's kind of hard to to return it and make sure that it actually exits. So sometimes, sometimes people will write a buck. Oh, let's see. I can do something fancy like this see
+00:22:33
+See, I think refactor extract method.
+00:22:39
+Oops. Okay.
+user avatar
+Ben Reed
+00:22:44
+So you can do something like this.
+00:22:51
+Right. And you can say,
+00:23:08
+Go.
+00:23:13
+So we can do something like this.
+00:23:20
+Okay. Now here if we return one. Well, even if you change this 10 and so that we can return one.
+00:23:27
+This one is it's going to get lost. Right. And actually this really worth even stopped execution. Whoops. Whoops. Whoops. We need to pass in artsy
+00:23:39
+In
+user avatar
+Ilan Granot
+00:23:42
+The
+user avatar
+Ben Reed
+00:23:42
+Box. Nice. Can I add factors for you catch yourself. Okay.
+00:23:51
+Why isn't it like rip and Claire Oh, because this is supposed to be named right here.
+user avatar
+Ilan Granot
+00:24:00
+I asked them my computer crashed here then so
+user avatar
+Ben Reed
+00:24:04
+Okay, so. So here we see
+00:24:08
+It.
+00:24:08
+Yeah, I print this return doesn't actually exit. But if we change this to an exit one right
+00:24:13
+Here.
+user avatar
+Ben Reed
+00:24:18
+Then it actually does exit. So it's kind of a long way of answering your question, I realize, but yes, you're right.
+00:24:26
+So if you return
+00:24:27
+From main with the value, that value will be the exit code.
+00:24:32
+Then I see about exit is you can exit from
+user avatar
+Ilan Granot
+00:24:35
+Non main functions as well. Thank you.
+user avatar
+Ben Reed
+00:24:39
+Alright so I'm getting some questions about
+00:24:44
+A star before our be
+00:24:49
+Can somebody supply a little bit more context what they're talking about.
+user avatar
+Ilan Granot
+00:25:13
+You hear me.
+00:25:15
+Yes, oh my computer crashed earlier but I heard your answer, but I think about the RV question i'm not i wasn't the one that asked the question, but if I'm not mistaken. I think that because it's a 2D array. So the book like uses the referencing pointer only once, and then uses
+00:25:36
+The square brackets to show that it's like it's an array. So
+user avatar
+Ben Reed
+00:25:42
+You're saying that they use this
+user avatar
+Ilan Granot
+00:25:43
+Yeah. And yeah, exactly. So
+user avatar
+Ben Reed
+00:25:46
+That was
+00:25:48
+The
+00:25:49
+Chat.
+user avatar
+Ben Reed
+00:25:54
+So,
+00:25:55
+Yeah, so it turns out those two are roughly equivalent. We'll talk a little bit about how they show up differently but but in the end, they're they're quite equivalent. Okay.
+00:26:08
+So yeah, you'll see if we run this, it'll work out the same
+00:26:13
+Okay, because there's this there's this
+00:26:17
+equivalence between a pointer and an array, and I will. We're going to explore that right now. Okay.
+00:26:26
+So, um,
+00:26:29
+Yeah, so let's explore that a little bit. So let's go back.
+00:26:35
+Let's, um,
+00:26:37
+Let's declare some things, um,
+00:26:41
+Let's declare an integer i goes through the seven
+00:26:46
+will declare a proper
+00:26:54
+A proper
+00:26:56
+Okay. And, well, the player and other integer
+00:27:01
+Will make the two
+00:27:04
+And then we'll say print
+00:27:07
+Print
+00:27:10
+print them.
+00:27:17
+Okay, so we run this.
+00:27:22
+Okay.
+00:27:23
+exciting huh very boring. Why, why in the world did we do that. So I did it because I want to show you something kind of nice. So
+00:27:32
+We're going to use the debugger to kind of look at what's actually going on here. So if we start with the debugger.
+00:27:41
+Okay.
+00:27:45
+Here we start going through, we have
+00:27:48
+We have i is 37 and now we we have this character buffer declared, and now we're about to define che. So actually, let's look
+00:28:03
+Let's see. I remember how to do this right
+00:28:08
+Let's see.
+00:28:10
+Right here we can say show in memory view. Okay, so this, we're looking at how the memory is laid out so
+00:28:23
+Remember when we, when we talked about how memory. It's just this like
+00:28:29
+Long array of bytes. Right. And we have to map strings into it. We have to map numbers into it.
+00:28:38
+So here we see this is a buffer, right. So this is where it's mapped into memory. This is his address right here, you see that hydrogen is really big. We're going to talk about address bases later.
+00:28:50
+But this is where it's mapped out into memory. Actually, let's, let's look at I where is mapped out into memory.
+00:29:00
+Review. Okay, so here's I
+00:29:04
+Know we see the I. It's kind of funny because again we're little Indian right so and we're showing this in hex so 37 in hex is
+00:29:18
+25 that's what 37 is 25 in hex right that's what we see here and then
+00:29:26
+That's the low byte, which is the least significant byte, which is going to be stored first and then we have the zeros. Right.
+00:29:36
+So hopefully everybody remembers the little Indian encoding. Anybody have any questions about that little Indian and couldn't
+00:29:44
+Make sense
+user avatar
+Ben Reed
+00:29:49
+Okay.
+00:29:50
+So, so there's where our AI is stored in memory, right here. There's some other things that are being stored in memory, and then
+00:30:01
+Actually. Oh, there's one thing. Yeah. So it looks like it's
+00:30:08
+There's, there's a little bit four bytes and then we see this. This is a buffer, right. This is a buffer, which is stored right after I
+00:30:18
+Right. And now, actually let's step. So we're on this line here. Let's step over this line and we see Jay getting stored. So here's
+00:30:29
+Here's the AI. The 37 and then here's the. This is a buffer and then see if we can find J Jay Jay said to others into Oh, interesting. So
+00:30:42
+Yeah. So we see that that those little four bytes. After I is now the compiler has designated that as a place to store J. Okay, so there's where everything is stored in memory.
+00:30:58
+Okay, so let's just, just for fun let's change this a little bit.
+00:31:02
+char proper to
+00:31:07
+Second,
+00:31:10
+Okay, so
+00:31:13
+Any. And again, let's
+00:31:16
+Run it as the debugger. Right. And so let's let's look at it.
+00:31:24
+And review of it. So there's either there's. We know that those 44 bytes will probably get filled in by Jay
+00:31:32
+We see that this is a buffer. Right. So there's the. This is a buffer. This is the know at the end of this is the buffer. And then we see some random bytes here and then here's the second buffer that that's occurring here. Alright, so that's kind of our memory view.
+00:31:52
+So, um,
+00:31:55
+This, this makes sense. Everyone does everybody see this memory few. Does that make sense. Any questions so far.
+user avatar
+Nathan Zadkovsky
+00:32:06
+Why is there no no on the second buffer.
+user avatar
+Ben Reed
+00:32:09
+There is, it's just that it doesn't scroll down, let's, let's look at this, let's let's go to the second buffer.
+00:32:17
+I got to go back to here and buffer to and I say memory view. Yeah. So here is this is the second buffer. And we see
+user avatar
+Nathan Zadkovsky
+00:32:29
+It. Okay, cool.
+user avatar
+Ben Reed
+00:32:32
+Alright, cool. Okay, so
+00:32:36
+Now we're going to start talking
+00:32:38
+About pointers. Okay. So, so far, when we've looked at this, we've looked at the value of the variables.
+00:32:46
+Right. We've looked at the value of i. We've looked at the value of the character array, otherwise known as a string.
+00:32:55
+Of buffer and buffer to right and the value of Jay, we looked at that. Now when we look at the memory view, we see that they're stored in memory, which kind of knew was going to happen. Right. But what if we want to know where their story what the addresses. So let's do that.
+00:33:15
+Oh, and here we print it, we print out I should add buffer to to this.
+00:33:28
+And then let's just do something fun right here.
+00:33:34
+Let's say
+00:33:38
+We want to, let's see, we want to. Oh, wait, wait, wait. I want to make me
+00:33:44
+Think we want to print out where they're stored. So it turns out there is
+00:33:51
+A format.
+00:33:54
+For that. It's called Percent p, this is for pointers. If we want to print pointers. Okay.
+00:34:04
+So we want to find out where i is stored. Right. So there's a special syntax. The ampersand if we put an ampersand before any variable. It will tell us where it's stored. Okay.
+00:34:21
+So let's put an ampersand before these miracles.
+00:34:27
+To find out where they're stored
+00:34:30
+All right.
+00:34:32
+And then let's do this. You even one more different. So
+00:34:38
+If we want to store a pointer. Now remember, a pointer is the address where something is stored. We call that a pointer. Okay, the value is the content of the memory, the pointer is the address of the memory so
+00:34:58
+When we say ENT IP.
+00:35:01
+Sorry, ti, this says PCI is going to be a variable. This stores, an integer. Now if we put a star.
+00:35:11
+Before the variable declaration, we say we want will P is going to be a pointer to an integer. Right. It's not going to contain the value is going to contain the address of a value. Okay, now what I just want to contain let's make it contain the address of I
+00:35:38
+OK.
+user avatar
+Ben Reed
+00:35:42
+Any questions so far.
+00:35:50
+Okay, I'm sorry, I missed some stuff in chat. Yeah, yeah, there will be some garbage between undeclared stuff for padding. Sometimes the compiler.
+00:36:02
+Al has extra space for efficiency and sometimes it uses that expense based leader. But in the meantime, other stuff. Okay, so we've seen
+00:36:13
+A couple of interesting syntax things here. The ampersand says give me the address that the pointer of this variable, tell me where this variable is stored. That's what the ampersand us
+00:36:27
+And an asterix before we declare a variable says this variable is going to be used to store an address.
+00:36:35
+Okay, it's not going to start instant your value. It's going to store the address of an integer value. So we see both those concepts come to life here online 12 whoops, where we say p AI is going to store an address, and we see now it's going to store the address of the variable. Hi.
+00:36:56
+Alright, so, um,
+00:37:00
+Let's do one more fun thing. So let's take I and let's take that PCI, we're going to take
+00:37:10
+What P is pointing to. And we're going to put the value six in it. OK. So now you'll see here. Again, this little bit confusing because we're using star in two different contacts and it does two different things when we use stars a declaration, we're saying, this will be a pointer.
+00:37:34
+When we use a star here when we use the star outside of a declaration when we're accessing a variable. It's called a D reference and what we're saying is
+00:37:46
+We're going to operate on what Ti is pointing to.
+00:37:51
+Okay. And actually, let's just show that a little bit more here.
+00:37:58
+will print PCI, and we'll print. Actually, let's do it like this.
+00:38:05
+Put the hex of
+00:38:07
+Things.
+00:38:09
+Okay.
+user avatar
+Ben Reed
+00:38:15
+This is not gonna work. All right. Okay. So,
+00:38:21
+We'll print what API.
+00:38:25
+Is pointing the address the P is pointing to. And we're going to print the value that is stored in the address that he is pointing to.
+00:38:35
+Alright, so we ready. Alright, so kind of think try and guess ahead, guess what's going to print out. Okay, hopefully you have that in your head a little bit
+00:38:45
+But let's go through and
+00:38:48
+Try it out.
+00:38:50
+Okay, and let's pull up our memory view. I think this is a good one. Let's see. Yeah, this one kind of shows everything. Hey, this is our view of memory. Let's step over so we can see
+00:39:03
+Jay, declared. So here we see Jay Jay is being stored right here right here's I the 37
+00:39:11
+We see this is a buffer is on this line and then this is the second one is here and we can see that I is stored at this big number here the engine for a nine zero right so let's see what this line prints.
+00:39:30
+You step over
+00:39:32
+Now I wonder. Yeah so. Oh, great. This is printing the values. Let's step over one more. And this gives us some pointers. So here we see that
+00:39:47
+I is stored in put in an address to engine 49 zero
+00:39:53
+Buffer is stored in address the engine a zero for two and a C zero and Shay, and 89 four. So let's go back to the memory view.
+00:40:07
+We too. Yeah. Oh, look, this is, this is cool. Now we can see book.
+00:40:15
+So,
+00:40:18
+For a nine zero, right. This is our i here, right.
+00:40:24
+For by tap to that. That's the J. The night for and then this is a buffer started a right
+00:40:32
+This makes sense are getting this. Any questions about
+00:40:38
+Pointers and memory.
+00:40:47
+Okay.
+00:40:50
+Alright, we're going to have some my clicker questions so
+00:40:54
+We'll find out if you're good either side. If you have any questions make sure to ask, um,
+00:41:00
+Okay.
+00:41:02
+So let's look at this. So now we're going to step into we're going to see PCI right so let's step.
+00:41:13
+P. I. Oh look, it's nice it highlighted for us. So we see that there was some random space between i where i in Jan store and
+00:41:23
+Between where I am J restored and the first string. And now we see that that space has been used to store PCI right this is the pointer. And if we look here, we can see that
+00:41:37
+Again, this is little Indians. We got to read it backwards right 00007 F. Okay, this is looking like an address and address that ends in for at nine zero right for a nine zero
+00:41:53
+That is where is stored, which is good, right, because we said p I was supposed to be that address. Hi.
+00:42:07
+All right, I'm sure.
+00:42:11
+There are questions. All right. Okay.
+00:42:15
+If you don't understand something, you can say back way.
+00:42:20
+Does anybody have any questions.
+user avatar
+Benjamin Reyes
+00:42:25
+Professor
+00:42:27
+Mike
+user avatar
+Ben Reed
+00:42:28
+Oh, yeah, yeah.
+user avatar
+Benjamin Reyes
+00:42:29
+I can. Okay. Could you just go over referencing referencing address the percentages. One more time.
+user avatar
+Ben Reed
+00:42:35
+Yes, yes, yes. Hundred
+00:42:36
+Percent. Right. Yeah.
+00:42:38
+So, um,
+00:42:41
+It actually, if we look at, like,
+00:42:44
+Okay.
+00:42:46
+Like, well, we have the ampersand. Right. And now if we look at I we know that i is equal to 37 right
+00:43:00
+But by putting the ampersand before I we say, okay, we're not interested in the value of by we are interested in where i is stored.
+00:43:13
+Okay.
+00:43:16
+That makes sense.
+00:43:19
+So the emperor.
+00:43:19
+Wizard. Give me the address. Where is stored.
+00:43:23
+Now, by looking at the memory of our executing program. We can see the is stored at this address right here seven F, F, G, H,
+00:43:33
+FM or F 114890, you can see that right. It's because this is where it starts right here. So these four bytes are. I said, and it starts at this address right so that is the address of I
+00:43:49
+Okay, and that is going to be put into API. And that's what we see put into API.
+00:43:56
+Okay.
+00:43:58
+So does that does the ampersand makes sense now.
+user avatar
+Benjamin Reyes
+00:44:04
+Yeah, I just need a quick once over again.
+user avatar
+Ben Reed
+00:44:07
+Yeah, yeah. Cool.
+00:44:08
+Okay, good.
+00:44:09
+So that's what the Emerson, does it does is it says give me the address like where this is actually stored in memory. I don't care about the value right now.
+00:44:18
+I only care about where it's stored in memory, right, and then this asterisk right here if we didn't put this Asterix here we would say PCI is going to store an integer.
+00:44:31
+That's not what PR is going to store we want people to store that address the memory location of an integer.
+00:44:40
+Right, because that's what ampersand is giving us the memory location of an integer. And so we say, okay, we want to declare API to be a pointer to an integer, right, a pointer, meaning the memory address. I've been entered
+00:44:58
+Okay, if we tried to do this.
+00:45:01
+If we just tried to do this, we get a syntax error. Right. Let's see.
+00:45:08
+What happens if we do it. Does it tell us
+user avatar
+Ben Reed
+00:45:11
+Eventually it will tell us that this, this is where we're assigning a pointer to an integer. And we're supposed to be signing up point two, two pointer. Right, so, um, that's what that Windows. Now let's look what happens here. What, what I think I lost track to the debugger.
+00:45:32
+Okay, so let's let's
+00:45:34
+Go down. Okay, so there's where we take I
+00:45:40
+Address or by we print it right so if it's give gets printed right this is
+00:45:47
+This is where it gets printed right 37 and the address of where i is
+00:45:56
+Now let's go back again. Let's pull up the address and I are let's pull up the memory view of I. Okay, so here's that 37
+00:46:07
+Okay, now we look at PGi MPI is pointing to this place right a 40840 right so this is where P is pointing to. Now, P is a memory location. Right. It's not about the memory location when we put this Asterix before API we are saying
+00:46:29
+We're not working on API itself. We're working on what PCI is pointing to. Okay, so this Astrid says we're going to work at what is stored MPI, and we're going to set it to six.
+00:46:47
+Alright.
+user avatar
+Ben Reed
+00:46:49
+So when I push step.
+00:46:54
+What is going to happen right here.
+user avatar
+Benjamin Reyes
+00:46:59
+25 there is going to get played and turned into a six.
+user avatar
+Ben Reed
+00:47:02
+Yeah, exactly.
+00:47:06
+Right.
+00:47:06
+It turns into a six. OK, now we'll do something crazy. Okay, so
+00:47:15
+Remember to CPU and mostly to compiler. Everything is numbers. It's just numbers, right. So the compiler CPU basically was given a number, the number of the stored MPI happens to be an address, and we tell the CPU. Hey, pick this number.
+00:47:33
+Look at the address that this number of points to and make it a six. That's what we told the CPU right now what we're gonna do is we're going to increment this number.
+00:47:44
+Okay, we're gonna increments it by one
+00:47:49
+And we're gonna do it again. Yeah.
+00:47:54
+Alright.
+00:47:56
+So let's run this again.
+00:48:01
+All right. Alright.
+00:48:04
+So step through here. Little bit, get down to where we were before. Let's look at the memory view of I
+00:48:16
+was German. Okay, so there's I ok now we know that this, this is going to turn to six because we saw that already so boom terms to six.
+00:48:29
+Okay, now we're going to take p-i. Let me see EPI, it's right here. Right. Yeah. Yeah. This is PR right here, right, that these backwards. If you reverse these, you get this address right here which is I can now we increment p-i. Okay, so these numbers are going to change.
+00:48:51
+Right, so let's step.
+00:48:54
+Whoo. We see it changed it got incremental by four.
+00:49:01
+What do you think it got increments it by for if we're only adding one
+user avatar
+Christian Miller
+00:49:07
+Is because it's an integer pointer.
+user avatar
+Ben Reed
+00:49:09
+Uh huh. Yes, very good. Yeah, it's an integer pointer.
+00:49:14
+So the compiler new integer pointer.
+00:49:17
+And since pointers are upsize four bytes, if you ain't increment to integer pointer by one so that you're pointing to the next integer, we have to actually increase the address by four.
+00:49:31
+Compiler. Notice that takes care of it for us right so that's why incremental by four. It's kind of magical. Right. So the compiler does some magical things first very useful. Very cool. Okay, so now
+00:49:46
+The compiler is pointing at the address that or four bytes. After this, after I okay what is for bite. After I
+00:49:59
+Think we remember actually. We can we can we can go back and we can do it this way. Oh, right. Okay, variables and we can say,
+00:50:08
+Give me one changes. So the memory do boom J four bytes. After I right so here's i and then four bytes later. Later is Jay so PCI is now pointing to the memory location of che right so if we step over this gong. It turns to six as well. Right. So let's just for fun, just this one we believe
+00:50:46
+I j
+00:50:52
+OK, so now if you run this. This is run it, see if the bug in it will see, you know, I started out is 37 but then in the end I NJ end up being the same thing.
+00:51:06
+All right.
+user avatar
+Ben Reed
+00:51:09
+Does that make sense.
+00:51:14
+Okay, if it does make sense to
+00:51:18
+I highly encourage you to play around with programs like this after class because it's going to seek out of your head.
+00:51:26
+If you don't like come up with your own tests and predict do exactly what we did here test and predict test and predict so you can kind of get very comfortable with with pointers. Now, if it doesn't make sense to you.
+00:51:40
+That's good question. Anybody have any questions.
+user avatar
+Ben Reed
+00:51:52
+How many levels two pointers.
+00:51:55
+Great question, Jeremy. How many levels of pointers to pointers is reasonable.
+00:52:01
+A good deal.
+00:52:04
+You can see many pointers to pointers. Actually, we already saw a little bit here with r&b we have two levels, but sometimes it can get much, much deeper.
+00:52:19
+Oh what P okay pie. Yes. So I think you're asking why did P i increased by four, rather than just one, right. So it turns out
+00:52:34
+p-i new that
+00:52:38
+Knows that the size of an integer is
+00:52:42
+One. I'm sorry it's 40 bytes. The size of interest for both. So if you increase. If you want to increment a pointer to an integer by one
+00:52:54
+You actually need to increase that I address by four because this each each entity is four bytes. Let me, let me illustrate something a little bit different, um,
+00:53:10
+You can also say character.
+00:53:15
+And I will send it to the same thing. Now if we if we compile this
+00:53:21
+Oh didn't even give us warning us to get this morning. Okay. So, um, what we'll do here is, let's do this. Okay.
+00:53:36
+What print. Yeah, I am CPI.
+00:53:40
+And
+00:53:41
+Then we'll increment, both of them.
+00:53:47
+Then we'll
+00:53:50
+print them again.
+00:53:52
+Okay.
+00:53:54
+So if we look at this
+00:53:59
+When
+00:54:01
+We when we increment it. So here's what the original one was that, so both of these originally start pointing pointing to the location of I
+00:54:11
+Right, so they're pointing to the same location because, you know, that's how we declared them pinpoint location is one right now when we increment by one, we're saying okay
+00:54:24
+Pick this pointer and incremental by one. Okay. So the compiler says okay piano it points to integers left four bytes. So if I increment a pointer to an integer by one, I need to skip four bytes.
+00:54:39
+But CI is a pointer to a character. So if I increment that by one a character is only one bite. So I'm just going to increment the address by one
+00:54:48
+So here we see the address of si, si, si increment by one, it just increments by one, whereas P is incremental for. Okay, so let me increment a pointer. The, the compiler uses its knowledge of what that pointer, the size of what that point was pointing to, and
+00:55:13
+An incorrect increments.
+user avatar
+Ben Reed
+00:55:16
+The chart address is not aligned anymore. They try and just is aligned on one bite.
+00:55:22
+But yeah, you're right, it's not aligned on four bytes anymore. We'll talk about alignment later.
+00:55:29
+Okay, but did that answer your question john
+00:55:35
+Okay, great. Okay, so we're getting near the end here. Um,
+00:55:43
+Okay, I want you to try something at home. Okay. And it's gonna maybe blow your mind a little bit
+00:55:52
+But
+00:55:55
+What we'll talk about it a little bit next time.
+00:56:00
+So if we do this.
+00:56:11
+Okay.
+00:56:13
+When we run this line.
+00:56:16
+What is it going to print PR PR
+00:56:20
+Okay.
+00:56:21
+So try that time to cover right now, but we'll talk about it next time.
+00:56:28
+Okay, um,
+00:56:31
+Alright, so I want to cover just a little bit about
+00:56:39
+byline Oh, because you need file I O for your program. So in the book in the in the chapter in the book. It does a pretty good job of covering file I O
+00:56:53
+But let's, let's, um,
+00:56:56
+Let's just review it really quick. Since we're going to need to use it. So,
+00:57:02
+Let's
+00:57:04
+When we do file I O
+00:57:08
+We use a special some special structures and functions.
+00:57:14
+To to access files. So there's this function called F open, right, it takes the file name will just use the RD one and it takes a mode and we're going to read. So
+00:57:28
+You'll, you'll notice Java and
+00:57:32
+Random random access file, it has modes and match see as well. But we want to read if we're going to write, we would use W. But, but we want to read a file because we're counting the number of bytes. Right.
+00:57:50
+Once we open the file. If this returns to know
+00:57:54
+Hey, I know it's a zero. You could also say zero here, if you wanted to. But if you say zero here.
+00:58:03
+You don't look cool. It looks like you don't know see
+00:58:07
+Right. So there's no pointer is because because FH is a pointer. We know that because there's a star there.
+00:58:15
+So, uh, no pointer points that address zero. Okay, so they're equivalent, but since it's a pointer, we should use know so if it's an all we're going to say, you know, error.
+00:58:32
+Hey, listen, just a quick test program.
+00:58:39
+And
+00:58:43
+Now, if we did open it. We want to read it. So there's this there's various ways to read it one convenient way to read it is with
+00:58:53
+F gets see okay returns an integer.
+00:58:59
+Okay.
+00:59:03
+So what we want to do is, oh, actually, let's do this. Okay, so we can say print and we want to print the character that we get right
+00:59:19
+And then at the end, if we want to be nice. We should close the file right
+00:59:25
+So let's run this of course when we run it, we need to, oh let's run it right now. So ups ups ups you forgot about the actors.
+00:59:39
+Okay.
+00:59:41
+So we run it and we couldn't open, though, because we're not passing any argument. So let's change the arguments to be
+00:59:54
+At sea
+00:59:56
+Yeah.
+00:59:59
+Run that when you run it, we get
+01:00:04
+Struck whoops, because
+01:00:08
+We also have a bug, we didn't, we didn't put it here strapped for time. All right. There you go. Okay, are now let's look at the password is.
+01:00:28
+So I think password starts with root. It's so ours. The first character. Let's get the next character.
+01:00:50
+Oh, it's looking good. Right. So I think if we keep going here. We'll see another oh
+01:00:57
+Times.
+01:00:59
+Boom.
+01:01:01
+Room. So
+01:01:04
+See there, we see we're reading the file. Okay, now I want this, I want to show you something interesting.
+01:01:12
+Get see returns a character right a character is one bite. So in reality you would think that you would use.
+01:01:24
+Something like this char C equals F gutsy
+01:01:30
+Right.
+01:01:35
+But there's a problem with this. It turns out in Java and input stream. When you do a read and you read the next bite it also supposed to return a character and it also returns an integer. Why is that why does the return an integer and not a star.
+01:01:57
+Ah, Brian. Yes, it's an integer, because it can return us. And what's the problem with that.
+01:02:20
+Can this
+user avatar
+Ben Reed
+01:02:26
+See if this is here. Yeah, there's no good care.
+01:02:31
+Yeah. So let's see. Hold on.
+01:02:39
+Okay here is I just did a search for F gets you
+01:02:45
+If you look here, the return value returns a character or an elf on in the file. Now here's the problem. If gets he returned a character and this is the same in Java to if it return just a character.
+01:03:03
+You wouldn't be able to distinguish like the any character can be in the file, right. So how do you return a character that indicates and to file you you can't because any character can be in the file right so you need to make sure that when you get back, you get back as an integer, because
+01:03:24
+When it returns elf that's going to be bigger than an eight bit integer and then an eight bit character.
+01:03:33
+Right, so that way you have extra bits so they can return this extra information that you're actually at the end of a file. Okay. Because eventually we're going to have something like if i equals
+01:03:49
+Then our letter. Okay.
+user avatar
+Ilan Granot
+01:03:53
+Probably not makes it
+user avatar
+Ben Reed
+01:03:54
+I don't know.
+user avatar
+Ilan Granot
+01:03:58
+Or do something
+user avatar
+Ben Reed
+01:04:00
+Okay, so, um,
+01:04:02
+Yeah, so
+01:04:04
+One thing that is going to catch you, is you're going to use char see with F gutsy, and it's going to work perfectly.
+01:04:13
+However, it will not read the whole random file, like the random file I gave you, it won't read the whole random because in that random file is going to be the character zero x
+01:04:27
+Right. And that character when you expand it to an integer is going to map to end the file, it's going to end prematurely. Okay, so make sure that you you read it in as an integer.
+01:04:41
+Okay.
+user avatar
+Ben Reed
+01:04:42
+And then if you want to actually the correct thing is you would do something like this I because actually done there already.
+01:04:52
+So if it's not in the file, then you would say something like, see photos char. That's the nicest way to do it.
+01:05:01
+Alright so that covers the basics of what you need to know for iOS, so they can read from a file.
+01:05:09
+Okay, do you have some ideas of pointers and you have some ideas of IO.
+01:05:16
+So you should be able to
+01:05:19
+Complete the assignment.
+01:05:22
+All right.
+01:05:25
+Ah us is negative one.
+01:05:30
+Right.
+01:05:33
+Oh, unless it's getting the character negative one. If it's good character negative one, that's okay because there will be negative ones in the file.
+01:05:47
+Alright, um,
+01:05:51
+Let's see. Any questions.
+01:05:53
+Before we do I click or we're going to do. We have time for just a little bit of I quicker.
+01:06:07
+Went to interpret negative one, as
+01:06:11
+Negative and one separately. No. Remember, we're reading numbers. So I character is a number
+01:06:21
+So you will see in the file.
+01:06:25
+There will be all the fights through the in the random one it's going to cover all the fights will be represented there. And one of the fights has all the bits set and that maps to the character.
+01:06:37
+Value negative one, okay, because it's a number I'm answering germs question in the chat went to interpret negative one is n minus and a one separately.
+01:06:49
+Yeah, so if it was a minus in a one in the file, then the minus, we would look up the minus
+01:06:59
+And ask your turn right.
+01:07:02
+So minus is actually
+01:07:06
+Here to D. Right.
+01:07:11
+What's the difference we r and r before F open so be means binary in UNIX be an RB RB and our is the same for Windows and maybe for a Mac.
+01:07:29
+Be means don't try and translate the backslash ends and windows. If you don't use the RB then when it sees the backslash and it will translate that into two characters a backslash are all the backslash and
+01:07:48
+I might. I might have reverse that. I don't know.
+01:07:52
+But basically you start D. So no transition happens
+01:07:56
+And it doesn't really matter in Linux since that's and that's where we're using. So, um, alright.
+01:08:04
+So I'm going to put you all in breakout rooms will do that very quickly. We only have a couple of minutes left.
+01:08:13
+See
+user avatar
+Ben Reed
+01:08:19
+Hey, make sure you start up your I clicker.
+01:09:01
+Christian Jared, are you able to go to the breakout rooms.
+01:09:45
+Benjamin, can you go to that breakout room. Are you having a technical issue.
+user avatar
+Dhananjay Pahuja
+01:13:42
+Ben.
+user avatar
+Ben Reed
+01:13:43
+Yeah.
+user avatar
+Dhananjay Pahuja
+01:13:44
+Yeah, that my clicker just glitch for me. Like for me, just kept reloading but didn't like, show me the question.
+user avatar
+Christian Miller
+01:13:50
+So who seconds to answer.
+user avatar
+Ben Reed
+01:13:53
+Is you get, oh, well, okay, so I didn't mess up a couple of them that they just jump. I had to. I didn't mean to ask the question that
+user avatar
+Christian Miller
+01:14:00
+I see, I see. I see. Yeah.
+user avatar
+Ben Reed
+01:14:02
+So it probably okay.
+01:14:06
+And actually,
+01:14:08
+Can I see what
+01:14:11
+Does this show the screenshot. I don't know. It doesn't
+01:14:15
+Know I skipped some and I don't. Okay, hopefully you guys can help me remember which was which. Okay, so I think it was this one. Okay. It looks like most people got it. Okay, so this is kinda like normal.
+01:14:38
+Like in Java. Right.
+01:14:41
+character pointer points to this address and memory for Ooh, this is a list of adapt. Basically, it's an array of characters and point to one gives us the second thing in the list right zero
+01:14:58
+Does this make sense everyone
+01:15:03
+Okay, I think some people thought it was half with with with pointers zero bracket zero would be
+01:15:11
+Okay. One thing that happens.
+01:15:15
+And see, there is this cool equivalence, that is worth remembering. So
+01:15:24
+This whoops mine.
+01:15:28
+Yeah.
+01:15:30
+I pen is on the wrong screen. I don't see if I can drop myself. This is the same as
+01:15:37
+He know
+01:15:39
+He are
+01:15:42
+Plus
+01:15:43
+One.
+01:15:46
+Whoops.
+01:15:48
+Terrible.
+01:15:51
+Okay, this is the same as saying, add one BTR and D reference it the to the to the two expressions are exactly the same.
+01:16:02
+Okay.
+user avatar
+Ben Reed
+01:16:05
+All right, let's see. And whoops.
+01:16:10
+See the next one.
+01:16:14
+Oh, let's see. I think this was this was the next one. Okay, well maybe it wasn't because I get this one, I believe.
+user avatar
+Rayyan Khan
+01:16:25
+This one.
+user avatar
+Ben Reed
+01:16:26
+Does anyone know what this one was
+user avatar
+Rayyan Khan
+01:16:29
+I think this was Question three. And I think question to was a repeat of question one.
+user avatar
+Ben Reed
+01:16:33
+Oh, OK. OK. So this was Question three, kid. So p TR zero. Okay, so what we're doing PT Our points to the address where goo is stored. Right. So it's kind of point to the F.
+01:16:48
+And then the next memory. Just be Oh, in the next memory address we have and then we take that pointer and the incremental by one
+01:16:56
+Right. So now it's going to be pointed to the string. Oh, right, because we've just incremental that by one. And so we, when we look at the first character of the string is going to be. Oh, is he
+01:17:12
+Okay, any questions about that. Dang, we're out of time. Okay, so what I would like you to do.
+01:17:23
+I will, I will go back a look at this online. I'll go back and put that the results in but please try out these things right. Some programs, see if you can figure out what the right answer is, and why. Okay.
+01:17:38
+And then I have office hours today after the next class.
+01:17:45
+But good luck. Please make sure you finish the assignment. This is an easy one. So make sure you're on top of things just to reminders so that you don't get stressed.
+01:17:56
+You can turn in the assignment. A week late without any loss of points.
+01:18:02
+The only, the only downside is after that week.
+user avatar
+Angeline Lee
+01:18:06
+You cannot turn in the assignment. Okay.
+user avatar
+Ben Reed
+01:18:09
+So I give you a week to turn an assignment late without losing points, but after that week, you can't you can't turn in the assignment.
+01:18:18
+And so this really comes back again, there's always a student at the end of the semester, it says
+01:18:23
+Can I please turn in the first assignment was so easy. And I really want to get those points back and and you just, you can't do that. We definitely moved on. Okay, so, but please, you have all the information you need to complete the assignment. So please try and get it done.
+user avatar
+Ilan Granot
+01:18:40
+I'm Ben. Yeah. So is it dude, this Friday or September 4
+user avatar
+Ben Reed
+01:18:45
+I believe it is to this Friday.
+user avatar
+Ilan Granot
+01:18:48
+This Friday.
+01:18:49
+Okay.
+user avatar
+Ben Reed
+01:18:49
+Let me check it too because it
+user avatar
+Ilan Granot
+01:18:53
+On canvas. It shows Friday.
+01:18:58
+One week
+user avatar
+Ben Reed
+01:18:59
+No, it's do. Oh, weird. I gave me more than a week. I don't know how that happened. It's do tonight.
+user avatar
+Ilan Granot
+01:19:07
+Tonight.
+user avatar
+Ben Reed
+01:19:08
+Yeah, it's do tonight and you have until the fourth. So actually you have you have a little bit more than a week to submit this
+01:19:17
+To submitted late
+user avatar
+Ilan Granot
+01:19:19
+What
+user avatar
+Ben Reed
+01:19:19
+You have everything you need to do to it.
+user avatar
+Ilan Granot
+01:19:21
+Oh, it says do Friday by 11:59pm
+01:19:25
+And if I go out
+user avatar
+Ben Reed
+01:19:27
+Yeah, that's Friday the port.
+user avatar
+Ilan Granot
+01:19:30
+So do august 28
+01:19:32
+And then available until September 4
+user avatar
+Ben Reed
+01:19:35
+Yeah, so the September 4 you will. You'll be submitting late
+user avatar
+Ilan Granot
+01:19:39
+That's the grace. Okay, so let's do this Friday. Thank you.
+user avatar
+Ben Reed
+01:19:43
+Know it's due to like
+user avatar
+Ilan Granot
+01:19:48
+26
+user avatar
+Ben Reed
+01:19:50
+Yeah, isn't an end the 20th. No.
+user avatar
+Christian Miller
+01:19:52
+Wasted six
+user avatar
+Ben Reed
+01:19:53
+That's why I'm sorry, sorry, sorry, I'm sorry.
+01:19:59
+I'm really sorry it is do this Friday. Yeah, it's do. That's why it works out. So I didn't do it right. Okay. Do this Friday and then you can submit it late until next Friday. Thank you.
+user avatar
+Rayyan Khan
+01:20:09
+We don't lose points if you turn it in before the fourth
+01:20:12
+You don't lose points now.
+user avatar
+Ben Reed
+01:20:14
+No, but you can like you only have one week to try to emulate. And then after you can't turn to them.
+user avatar
+Rayyan Khan
+01:20:21
+Okay, and one of those today's electronic going up to kind of go
+user avatar
+Ben Reed
+01:20:26
+It should go up probably right after my next class. It usually comes up pretty fast. So you shouldn't see it appear around three o'clock.
+user avatar
+Rayyan Khan
+01:20:36
+Okay.
+user avatar
+Ben Reed
+01:20:37
+That right
+user avatar
+Rayyan Khan
+01:20:38
+No.
+user avatar
+Ben Reed
+01:20:38
+It's almost three o'clock. You shouldn't be see it appear around 430
+user avatar
+Nathan Zadkovsky
+01:20:44
+Is the one week grace period for all assignments or just the first
+user avatar
+Ben Reed
+01:20:47
+It's all assignments, all of a sudden you're like that. So you have one week to turn it in late with no less points, but then after that week, you can't you can't turn it in. So that's kind of a
+01:21:01
+Given take right
+01:21:03
+There's no late penalty but but after the week you can commit an adult.
+user avatar
+Dhananjay Pahuja
+01:21:09
+Who feeling the features. I'm gonna say, what are we ready tough because of how much time you're giving them. Is that true
+user avatar
+Ben Reed
+01:21:15
+I didn't know that they will get harder and harder, but it will gradually and the next the next assignment shouldn't be too much harder than this one.
+01:21:27
+Okay, first assignment is usually quite challenging for people, but it's challenging in a very important way it's it's some hard concepts that you will definitely use
+01:21:39
+In industry, in practice, you'll definitely use them and people mess them up all the time. So their concepts that you really have to get that they're there. They are hard concept right
+01:21:51
+Okay, okay.
+01:21:55
+All right, so I'm
+01:21:59
+Great.
+01:22:00
+Yeah, so I will see you on yeah next Monday. Have a good weekend and get the same intensity, you can do it tonight. I wouldn't do it tonight. I know it sounds and I could totally do it tonight.
+01:22:12
+And if you. I think there's one person yet code. So if you can just
+01:22:16
+Hang out yeah let me stop the recording real quick.
