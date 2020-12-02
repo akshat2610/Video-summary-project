@@ -1,0 +1,75 @@
+<html>
+  <!-- <script src="./dropzone-5.7.0/dist/dropzone.js"></script>
+  <link rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css"> -->
+  <head>
+    <title> Upload Files - SummarAIze </title>
+    <!-- <img class = "logo-img" src="summarAIze.png" width='200' ALIGN = CENTER alt="align box"/> -->
+    <a href="http://127.0.0.1:3030">
+    <img class = "logo-img" src='https://i.ibb.co/xGNJ5Qx/summar-AIze.png' width='200' ALIGN = CENTER alt="align box">
+    </a></img>
+</head>
+<style>
+
+.logo-img{
+  float: left;
+  position: relative;
+  margin: 10px 10px 0px 10px;
+  border-radius: 5px;
+}
+
+h3{
+  color: white;
+  font-family: 'Trebuchet MS';
+  text-align: center;
+  font-weight: 300;
+} 
+
+.custom-file-upload, input[type="submit"]{
+  background-color: #78cf93;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1.5px ridge black;
+  border-radius: 5px;
+  cursor: pointer;
+  width: auto;
+  box-shadow: 3px 3px black;
+}
+</style>
+
+<body style="background-color:#282c34;">
+  <br><br><br><br><br><br>
+  <h2 style="color: #78cf93; font-weight:500; font-family:'Trebuchet MS'; text-align: center;"> 
+    Upload your Video, Transcript, and Keywords files below </h2>
+  <br><br><br>
+  <!-- <form action="/success" method = "post" enctype="multipart/form-data" name="transcript"
+      class="dropzone"
+      id="my-awesome-dropzone"></form>
+  <form action="/success" method = "post" enctype="multipart/form-data" name="transcript"
+      class="dropzone"
+      id="my-awesome-dropzone"></form>
+  <form action="/success" method = "post" enctype="multipart/form-data" name="transcript"
+      class="dropzone"
+      id="my-awesome-dropzone"></form>   -->  
+<form action = "/success" method = "post" enctype="multipart/form-data">
+  <h3>
+    Please choose the video file &nbsp; &nbsp;
+    <label class="custom-file-upload">
+    <input type="file" name="video"/></label>
+  </h3><br>
+        <h3>
+          Please choose the transcript file &nbsp;
+          <label class="custom-file-upload">
+          <input type="file" name="transcript"/></label>
+        </h3><br>
+        <h3>
+          Please choose the keywords file &nbsp;
+          <label class="custom-file-upload">
+          <input type="file" name="dictionary"/></label>
+        </h3><br><br><br>
+        <h3> 
+          <input type = "submit" name = "submitbutton" value="Click here to SummarAIze" style="box-shadow: 3px 3px black;">
+        </h3>
+</form>
+</body>
+</html>

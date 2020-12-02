@@ -1,0 +1,126 @@
+<DOCTYPE=!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcome to summarAIze</title>
+	<!-- <link rel="stylesheet" type="text/css" href="C:\\project clean latests\\login service\\static\\css\\index.css"> -->
+</head>
+
+<style>
+
+#login_panel{
+  background-color: #1c1d20;/* #2E8BC0; */
+  display: flex;            /*To display logo and login form on the same line*/
+  height: auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+#logo{
+  font-size: 25px;
+}
+#login_form{
+  margin: 10px 0px 5px 38%;/*3% 0% 1% 42%;*/
+}
+
+body {
+  font-family:Calibri, sans-serif;
+  background-color: #282c34;
+}
+
+#signup_panel{
+  display: flex;
+  height: auto;
+}
+
+#signup_form{
+  padding: 5px;
+  background-color: #78cf93;
+  width: 18%;
+  margin: auto;
+  /* border-style: groove; */
+  border: 2px solid #000000;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.logo-img{
+  float: left;
+  position: relative;
+  margin: 18px 10px 15px 15px;
+  border-radius: 10px;
+}
+
+hr {
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+/* Full-width input fields */
+input[type = text], input[type = password] {
+  width: auto;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #282c34;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.input[type="submit"]{
+  background-color: #4CAF50;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: auto;
+}
+
+h1,h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #78cf93;
+    font-weight: 300;
+}
+
+</style>
+
+<body><br>
+	<div id = "login_panel">
+          <div id = "logo">
+            <a href="index.html">
+            <img class = "logo-img" src='https://i.ibb.co/xGNJ5Qx/summar-AIze.png' width='200' ALIGN = CENTER alt="align box">
+            </img></a>
+          </div>
+          <div id = "login_form">
+            <form action = "/login" method = "POST">
+              <p style="color: aliceblue;">Username &nbsp; <input type = "text" name = "username_signin">
+              &nbsp; Password &nbsp; <input type = "password" name = "password_signin"> &nbsp;
+              <input type = "submit" name = "signin" value = "Log in"></p>
+            </form>
+          </div>
+    </div> <br>
+    <div id = "signup_panel">
+          <div id = "features_panel">
+            <h1> &nbsp; summarAIze saves your time by shrinking your digital content upto 60% </h1><br>
+            <ul>
+              <h2> Upload your content </h2>
+              <h2> Take a walk </h2>
+              <h2> Enjoy! </h2>
+            </ul>
+       	  </div>
+          <div id = "signup_form">
+            <form action = "/signup" method = "POST">
+              <h3>Sign Up today!</h3><hr>
+              Enter username <input type = "text" name = "username"><br>
+              Enter email <input type = "text" name = "email"><br>
+              Create password <input type="password" name="password"><br>
+              Confirm password <input type ="password" name = "password"> <br><br>
+              <span id = "signup_btn"> <input type = "submit" name = "signup" value = "Create account"> <span>
+            </form>
+          </div>
+    </div>
+	<canvas id="canvas"></canvas>
+	<script type="text/javascript" src="master.js"></script>
+</body>
+</html>
