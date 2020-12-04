@@ -4,17 +4,17 @@ import requests
 import mysql.connector
 import os
 import hashlib
-
+import random
+import string
+import js2py
 
 app = Flask(__name__)
 app.secret_key = 'super secret key'
 app.config['SESSION_TYPE'] = 'filesystem'
-#app.run(debug=True)
-
 
 @app.route('/')
 def render_home():
-    return render_template('index.html')
+	return render_template('index.html')
 
 @app.route('/login', methods = ['POST'])
 def login():
@@ -30,26 +30,29 @@ def login():
 		cursor.execute(query, username)
 
 		results = cursor.fetchall()
+		cursor.close()
 
 		if len(results) == 0:
-			flash('username not found')
+			flash('user not found')
+			print('user not found')
+		
 		else:
 			stored_key = results[0][1]
 			salt = results[0][2]
-			key = hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt, 100000)
-			
-			print(salt)
+			key = hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt.encode('utf-8'), 100000)
+
 			print(key)
 			print(stored_key)
 
-			if stored_key == key:
+			if stored_key == str(key):
+				print('authenticated')
 				flash('authenticated')
 				return redirect('http://127.0.0.1:3030/')
 			else:
+				print('Incorrect password')
 				flash('Incorrect password')
 				return redirect('http://127.0.0.1:3030/')
 		
-
 	except Exception as e:
 		print('Stress in login')
 		print(e)
@@ -62,20 +65,25 @@ def signup():
 		cursor = conn.cursor()
 		sql_statement = 'INSERT INTO users (username, pwdHash, salt, email) VALUES (%s, %s, %s, %s)'
 
-		salt = os.urandom(32)
+		salt = generate_random_salt()
 		password = request.form['password']
-		key = hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt, 100000)
+		key = hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt.encode('utf-8'), 100000)
 
-		values = (request.form['username'], str(key), str(salt), request.form['email'])
+		print(salt)
+
+		values = (request.form['username'], str(key), salt, request.form['email'])
 		cursor.execute(sql_statement, values)
 		conn.commit()
 
+		cursor.close()
+		conn.close()
 
 		return redirect('http://127.0.0.1:3030/')
 
 	except Exception as e:
 		print('error in signing up')
 		print(e)
+
 
 def connect_to_db():
 	try:
@@ -93,4 +101,14 @@ def connect_to_db():
 		print('error in opening creds file or connecting to db')
 
 
-app.run(port=3000)
+def generate_random_salt():
+	salt = ''
+	
+	for i in range(0, 32):
+		salt += random.choice(string.ascii_letters)
+
+	return salt
+
+
+
+app.run(port=5000)
